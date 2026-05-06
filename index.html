@@ -996,6 +996,21 @@
       color: var(--text-faint);
     }
 
+    .footer-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .footer-contact a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .footer-contact a:hover { color: var(--text-primary); }
+
     /* ── CONTACT FORM ── */
     #contact {
       max-width: 640px;
@@ -1498,6 +1513,11 @@
       <li><a href="#how-it-works">Process</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
+    <div class="footer-contact">
+      <a href="mailto:apex.digital.design1@gmail.com">apex.digital.design1@gmail.com</a>
+      <a href="tel:+447841319560">07841 319560</a>
+    </div>
 
     <div class="footer-copy">© 2026 Apex Digital Designs. All rights reserved.</div>
   </footer>
